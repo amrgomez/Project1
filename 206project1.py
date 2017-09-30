@@ -114,11 +114,8 @@ def mySortPrint(a,col,fileName):
 		h= (f[y]["First"]+ "," +f[y]["Last"]+ "," +f[y]['Email']+ ","+ f[y]['Class']+ ","+f[y]["DOB"]+ '\n')
 		o_csv.write(h)
 	o_csv.close()
-	return(None)
+	return None
 
-#Output: None
-
-	#Your code here:
 
 
 
